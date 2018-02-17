@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES := device/google/marlin/apns-full-conf.xml:system/etc/apns-co
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_marlin
+PRODUCT_NAME := xenonhd_marlin
 PRODUCT_DEVICE := marlin
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := AOSP on msm8996
