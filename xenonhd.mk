@@ -23,3 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="marlin-user 8.1.0 OPM1.171019.016 4503492 release-keys"
 
 $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.xenonhd.maintainer="joepacino" \
+ro.xenonhd.donate="https://www.paypal.me/dadi11" 
