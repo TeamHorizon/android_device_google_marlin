@@ -25,3 +25,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=joeking82
+
+PRODUCT_PACKAGES += \
+    Adaway \
+    KernelAdiutor 
+  
+
